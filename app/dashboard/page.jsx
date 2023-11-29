@@ -1,6 +1,26 @@
 import React from "react";
+import Card from "./card/card";
+import styles from "../ui/dashboard/dashboard.module.css";
+import Rightbar from "./rightbar/rightbar";
+import Transaction from "./transaction/transaction";
+import Chart from "./chart/chart";
 const Dashboard = () => {
-  return <div></div>;
+  return (
+    <div className={styles.wrapper}>
+      <div className={styles.main}>
+        <div className={styles.cards}>
+          <Card />
+          <Card />
+          <Card />
+        </div>
+        <Transaction />
+        <Chart />
+      </div>
+      <div className={styles.side}>
+        <Rightbar />
+      </div>
+    </div>
+  );
 };
 
 export default Dashboard;
