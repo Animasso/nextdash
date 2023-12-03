@@ -1,2 +1,15 @@
 .container {
+  height: 450px;
+  background: var(--bgsoft);
+  padding: 20px;
+  border-radius: 1Opx;
+  -webkit-border-radius: 1Opx;
+  -moz-border-radius: 1Opx;
+  -ms-border-radius: 1Opx;
+  -o-border-radius: 1Opx;
+}
+.title {
+  font-weight: 200;
+  color: var(--textSoft);
+  margin-bottom: 20px;
 }
