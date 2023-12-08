@@ -1,0 +1,75 @@
+.container {
+  background-color: var(--bgsoft);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 20px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.avatar {
+  object-fit: cover;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.table {
+  width: 100%;
+}
+.table td {
+  padding: 10px;
+}
+.user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.button {
+  color: var(--text);
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.view {
+  background-color: teal;
+}
+.view:hover {
+  background-color: rgb(3, 91, 91);
+}
+.delete {
+  background-color: red;
+}
+.delete:hover {
+  background-color: rgb(160, 2, 2);
+}
+.addbutton {
+  padding: 10px;
+  background-color: #5d57c9;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.addbutton:hover {
+  background-color: #4037ec;
+}

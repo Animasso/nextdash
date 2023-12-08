@@ -1,0 +1,54 @@
+.container {
+  background-color: var(--bgsoft);
+  padding: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 70%;
+}
+.form input,
+.form select,
+.form textarea {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: var(--bg);
+  color: var(--text);
+  border-radius: 5px;
+  border: 2px solid rgba(181, 179, 179, 0.502);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 1px 1px 0px rgb(243, 240, 240);
+}
+.form input {
+  width: 45%;
+}
+.form textarea {
+  width: 100%;
+}
+.button:hover {
+  background-color: rgb(1, 106, 106);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: teal;
+  width: 50%;
+  box-shadow: 2px 2px 2px rgba(220, 215, 215, 0) inset;
+}
